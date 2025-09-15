@@ -16,3 +16,6 @@ Small CLI tool to poll GitHub / GitHub Enterprise Actions workflow runs for a re
    ```ini
    GITHUB_TOKEN=YOUR_TOKEN_WITH_ACTIONS_READ
    API_BASE=https://gitenterprise.xilinx.com/api/v3
+
+
+python scripts/fetch_runs.py --owner "FaaSApps" --repo "vitis_flexml" --out-prefix reports/report_$(date +%Y%m%d_%s)
