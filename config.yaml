@@ -1,0 +1,6 @@
+# Basic config for Phase 1
+# API_BASE is taken from .env (recommended). These values control pagination & concurrency.
+per_page: 100
+max_pages: 3
+max_concurrent_repos: 10
+timeout_seconds: 30
